@@ -1,6 +1,5 @@
-layout: post
+---
 title: VS2010 控制台和窗口的转换
-date: 2015/9/28 20:00:00
 categories: 
 - Visual Studio
 tags: 
