@@ -10,15 +10,15 @@ tags:
 
 # 1. 控制台和窗口是什么？
 
-Visual Studio 是常用的开发工具，包括多种部件。其中，开发C/C++程序的称为 Visual C++。
+Visual Studio 是常用的开发工具，包括多种部件。其中，开发 C/C++ 程序的称为 Visual C++。
 
-新建项目的时候，一般选择“Win32控制台应用程序”或“Win32工程”，区别是：
+新建项目的时候，一般选择“ Win32 控制台应用程序”或“ Win32 工程”，区别是：
 
-* Win32控制台应用程序： 程序入口是main函数，运行程序会出现一个控制台（黑框），从控制台输入输出比较方便
+* Win32 控制台应用程序： 程序入口是 main 函数，运行程序会出现一个控制台（黑框），从控制台输入输出比较方便
 
-* Win32工程： 程序入口是WinMain函数，运行程序没有控制台，如果要输出窗口需要开发者自己创建
+* Win32 工程： 程序入口是 WinMain 函数，运行程序没有控制台，如果要输出窗口需要开发者自己创建
 
-在VS2010下，如下图：
+在 VS2010 下，如下图：
 
 ![VS2010新建工程](/images/20150529/createproject.png)
 
@@ -37,13 +37,13 @@ Visual Studio 是常用的开发工具，包括多种部件。其中，开发C/C
 
 如果要更改为控制台程序，则参数为：
 
-* Debug模式下是 **WIN32, _DEBUG, _CONSOLE**
-* Release模式下是 **WIN32, _NDEBUG, _CONSOLE**
+* Debug 模式下是 **WIN32, _DEBUG, _CONSOLE**
+* Release 模式下是 **WIN32, _NDEBUG, _CONSOLE**
 
 如果要更改为窗口程序，则参数为：
 
-* Debug模式下是 **WIN32, _DEBUG, _WINDOWS**
-* Release模式下是 **WIN32, _NDEBUG, _WINDOWS**
+* Debug 模式下是 **WIN32, _DEBUG, _WINDOWS**
+* Release 模式下是 **WIN32, _NDEBUG, _WINDOWS**
 
 ## 2.2. 设置连接器
 
