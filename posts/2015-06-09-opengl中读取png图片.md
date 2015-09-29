@@ -1,6 +1,5 @@
-layout: post
-title: OpenGL中读取PNG图片
-date: 2015/9/28 20:00:00
+---
+title: OpenGL 中读取 PNG 图片
 categories: 
 - OpenGL
 tags: 
@@ -9,9 +8,9 @@ tags:
 - 纹理
 ---
 
-# 1. 读取PNG图片到纹理
+# 1. 读取 PNG 图片到纹理
 
-前提是安装好libpng，然后包含头文件：
+前提是安装好 libpng，然后包含头文件：
 
 ```cpp
 #include <gl\glew.h>
@@ -165,7 +164,7 @@ GLuint loadTexture(const string filename, int &width, int &height)
 
 # 2. 使用纹理
 
-定义一个GLuint型变量，调用loadTexture，将返回值赋值给变量，变量就会保存有纹理。
+定义一个 GLuint 型变量，调用 loadTexture，将返回值赋值给变量，变量就会保存有纹理。
 
 ```cpp
 
