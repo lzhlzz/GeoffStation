@@ -1,2 +1,3 @@
-# GeoffStation
-This is a repository of original articles.
+# 本仓库的作用
+
+用于保存文章的仓库。
