@@ -1,7 +1,7 @@
 ---
 title: VS2010 控制台和窗口的转换
 categories: 
-- Visual Studio
+- 编程开发
 tags: 
 - vs2010
 - console
