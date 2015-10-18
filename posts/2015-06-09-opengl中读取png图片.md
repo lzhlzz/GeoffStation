@@ -2,6 +2,7 @@
 title: OpenGL 中读取 PNG 图片
 categories: 
 - 编程开发
+- OpenGL
 tags: 
 - png
 - 图片
